@@ -5,8 +5,6 @@ import { CategoryTagList } from "./components/CategoryTagList"
 export const GifExpertApp = () => {
     
     const [categories, setCategories] = useState([])
-
-    console.log(categories);
     
     const onAddCategory = ( newCategory ) => {
         if( categories.includes(newCategory)) return;
@@ -14,14 +12,11 @@ export const GifExpertApp = () => {
     }
     
     const handleDeleteCategory = (category) => {
-        console.log("Category in base", category)
         const newCategories = categories.filter((categoryItem) => categoryItem !== category)
         setCategories(newCategories)
     }
 
-    useEffect(() => {
-        console.log("categories change")
-    }, [categories])
+    useEffect(() => {}, [categories])
 
     return (
         <>

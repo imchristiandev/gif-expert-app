@@ -2,8 +2,6 @@ import { CategoryTag } from "./CategoryTag";
 
 export const CategoryTagList = ({categories, onDeleteCategory}) => {
 
-  console.log("Categories in tag", categories);
-
   const handleDeleteCategory = (category) => {
     onDeleteCategory(category)
     

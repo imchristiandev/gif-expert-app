@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <GifItemApp /> Debe de hacer match con el snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <span
+      class=" lazy-load-image-background blur"
+      style="color: transparent; display: inline-block;"
+    >
+      <img
+        alt="Saitama"
+        src="https://media3.giphy.com/media/QAU5Bd0Js9w3arZ4UD/giphy.gif?cid=1d513e8bwzcndfxg5fqct1awzft9zw5rp0ghydyobrdyfj5s&rid=giphy.gif&ct=g"
+      />
+    </span>
+    <p>
+      Saitama
+    </p>
+  </div>
+</div>
+`;
